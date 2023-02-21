@@ -38,7 +38,7 @@ Saia do console do container com o comando <b>exit</b>, e então navegue até o 
 ```
 Dentro do diretório target também será gerado um arquivo chamado <b>function.zip</b> que será usado para fazer o deploy da aplicação no console da AWS.
 
-### Configurações Aws
+### Configurações Aws (Nativo)
 Para executar o binário na aws, é preciso realizar as seguintes configurações.
 
 - Ao criar um nova aws lambda no painel da aws, Em "Tempo de execução" escolha: <b>Custom runtime on Amazon Linux 2</b>
