@@ -10,15 +10,16 @@ está dividio em branchs e todas possuem a mesma lógica, porém com framworks o
 
 ## Resultado dos testes
 
- Tecnologia         |  Could Start | First Execution | Second Execution |   
-|-------------------|:------------:|:----------------|:----------------:|
- Spring             |              |                 |                  | 
- Spring SnapStart   |              |                 |                  |
- Quarkus            |              |                 |                  |
- Quarkus SnapStart  |              |                 |                  |
- Spring Native      |              |                 |                  |
- Quarkus Native     |              |                 |                  |
+ Tecnologia            | Cold Start (ms) | First Execution                  | Second Execution |   
+|----------------------|:---------------:|:---------------------------------|:----------------:|
+ Spring JVM            |     4609,28     | 390,69                           |       3,8        |
+ Quarkus JVM           |     2049,58     | 62,09                            |       1,7        |
+ Spring JVM SnapStart  |       202       | 293,89                           |        3         |
+ Quarkus JMV SnapStart |       146       | 82,6                             |        2         |
+ Spring Native         |     562,87      | 15,82                            |       2,7        |
+ Quarkus Native        |     241,87      | 47,64                            |       1,25       |
 
 
 ## Mais detalhes
 
+ar
