@@ -3,13 +3,11 @@ Este repositório contém aws lambdas escritas em Java com diferentes frameworks
 está dividio em branchs e todas possuem a mesma lógica, porém com framworks ou/e configuração de build diferentes.
 
 ## Branchs
-- Spring Boot (Para testes também com o Aws SnapStart)
-- Quarkus
-- Spring Native
-- Quarkus Native
+- spring (Para testes também com o Aws SnapStart)
+- quarkus (Para testes também com o Aws SnapStart e Nativo)
+- spring-native
 
 ## Resultado dos testes
-
  Tecnologia            | Cold Start (ms) | First Execution                  | Second Execution |   
 |----------------------|:---------------:|:---------------------------------|:----------------:|
  Spring JVM            |     4609,28     | 390,69                           |       3,8        |
@@ -20,6 +18,4 @@ está dividio em branchs e todas possuem a mesma lógica, porém com framworks o
  Quarkus Native        |     241,87      | 47,64                            |       1,25       |
 
 
-## Mais detalhes
 
-ar
