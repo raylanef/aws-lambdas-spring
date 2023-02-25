@@ -17,5 +17,9 @@ está dividio em branchs e todas possuem a mesma lógica, porém com framworks o
  Spring Native         |     562,87      | 15,82                            |       2,7        |
  Quarkus Native        |     241,87      | 47,64                            |       1,25       |
 
+## Comparativo
+
+![img](https://raw.githubusercontent.com/paraense/aws-lambdas/master/comparativo.png)
+
 
 
