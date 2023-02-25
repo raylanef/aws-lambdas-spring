@@ -1,4 +1,4 @@
-# Bechmark Aws Lambdas
+# Quarkus: JVM e Nativo
 Este repositório contém aws lambdas escritas em Java com diferentes frameworks e métodos de build para a realização de testes de performance. Ele
 está dividio em branchs e todas possuem a mesma lógica, porém com framworks ou/e configuração de build diferentes. Nesta Branch você vai o exemplo escrito com Quarkus, tanto para compilação nativa quanto bytecode para a JVM.
 
