@@ -15,7 +15,7 @@ public class LambdaApplication {
 	}
 
 	@Bean
-	public Function<Map<String, String>, String> function() {
+	public Function<Request, Response> function() {
 		return new Lambda();
 	}
 
